@@ -1,0 +1,89 @@
+.card-header{
+    background-color: #6600ff;
+    color: #fff;
+}
+#second-nav{
+    margin-left: 28vw;
+}
+
+.navbar-nav{
+    margin-right: 0 !important;
+}
+
+.navbar-nav li a{
+    margin-top: 3.5vh;
+    font-family: 'Muli', sans-serif !important;
+    color: #cccccc !important;
+}
+.navbar-nav li a:hover {
+    /* padding-top: 4.5vh; */
+    
+    color: #ecc102 !important;
+}
+
+#trans-nav{
+    margin: 1.5vh 0 1.5vh 15vw;
+    position: fixed;
+    z-index: 2;
+}
+.navbar{
+    background: none !important;
+}
+
+section{
+    position: relative;
+    width: 100%;
+    height: 90vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+}
+
+#landing{
+
+}
+
+#landing::before{
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(to right, #6600ff 0%, #cc33ff 100%);
+    border-radius: 0 0 30% 30%/0 0 100% 100%;
+    transform: scaleX(1.5);
+}
+
+section .content{
+    position: relative;
+    z-index: 1;
+    margin: 0 auto;
+    max-width: 900px;
+    text-align: center;
+}
+
+section .content h2{
+    margin: 0;
+    margin-bottom: 7.5vh;
+    padding: 0;
+    color: #fff;
+    font-size: 3em;
+
+}
+
+#landing .content p{
+    color: #fff;
+    font-size: 1.2em;
+    
+}
+
+body{
+    /* height: 100vw; */
+    margin: 0;
+    padding: 0;
+    background-color: #000;
+    /* background: linear-gradient(to bottom, #323232 0%, #3F3F3F 40%, #1C1C1C 150%), linear-gradient(to top, rgba(255,255,255,0.40) 0%, rgba(0,0,0,0.25) 200%);
+    background-blend-mode: multiply; */
+}
